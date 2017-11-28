@@ -1,7 +1,7 @@
 package dnsudhir.com.odm;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
     myRef.setValue("Hello World!");
 
-
     myRef.addValueEventListener(new ValueEventListener() {
       @Override public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -31,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
       @Override public void onCancelled(DatabaseError databaseError) {
 
-
       }
     });
-
   }
 }
