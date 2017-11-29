@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "98667213868",
+    "firebase_url": "https://odmfirebaseproject.firebaseio.com",
+    "project_id": "odmfirebaseproject",
+    "storage_bucket": "odmfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98667213868:android:0b923c5c940d5166",
+        "android_client_info": {
+          "package_name": "dnsudhir.com.odm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98667213868-8anf0493squha6g8brekivssqnq9jih5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dnsudhir.com.odm",
+            "certificate_hash": "57b529346b94ac63a389d9dade765c9caca15aa1"
+          }
+        },
+        {
+          "client_id": "98667213868-8tqrn6ovhpagamcgmgtkte3qslgjsbc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe04KgdlKDKe6hBMvs4es-T4o2kaQqKIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98667213868-8tqrn6ovhpagamcgmgtkte3qslgjsbc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

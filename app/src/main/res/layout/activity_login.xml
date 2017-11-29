@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="dnsudhir.com.odm.Login"
+    >
+
+
+  <TextView
+      android:id="@+id/tvHeaderTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="Login"
+      android:textColor="@color/colorPrimary"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Email:"
+      android:textColor="#000000"
+      />
+
+  <EditText
+      android:id="@+id/etEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:hint="Enter Email"
+      android:inputType="textEmailAddress"
+      />
+
+  <TextView
+      android:id="@+id/tvLblPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Password:"
+      android:textColor="#000000"
+      />
+
+  <EditText
+      android:id="@+id/etPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:hint="Enter Password"
+      android:inputType="textPassword"
+      />
+
+
+  <TextView
+      android:id="@+id/tvLblConfPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Confirm Password:"
+      android:textColor="#000000"
+      android:visibility="gone"
+      />
+
+  <EditText
+      android:id="@+id/etConfPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:hint="Enter Confirm Password"
+      android:inputType="textPassword"
+      android:visibility="gone"
+      />
+
+  <Button
+      android:id="@+id/btnLogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="8dp"
+      android:text="Login"
+      />
+
+  <Button
+      android:id="@+id/btnResetEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="8dp"
+      android:text="Reset Password"
+      android:visibility="gone"
+      />
+
+
+  <Button
+      android:id="@+id/btnSignUp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="8dp"
+      android:text="Sign Up"
+      android:visibility="gone"
+      />
+
+  <TextView
+      android:id="@+id/tvLblSignUp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:layout_marginRight="32dp"
+      android:text="Sign Up"
+      />
+
+  <TextView
+      android:id="@+id/tvLblForgotPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:layout_marginRight="32dp"
+      android:text="Forgot Password"
+      />
+
+
+</LinearLayout>
